@@ -1,0 +1,102 @@
+.header {
+    position: relative;
+    padding: 0%;
+}
+
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.header {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden; /* Ensure the image doesn't overflow */
+}
+
+.header img {
+    width: 100vw; /* Full width of the viewport */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    border-radius: 0; /* Remove oval shape */
+    position: relative;
+    top: -100px; /* Adjust as needed to move the image up */
+}
+
+.text-content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+    border-radius: 0px; /* Rounded corners for the text box */
+}
+
+.text-content h1, .text-content p {
+    margin: 0;
+}
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: -100px;
+    }
+    h1, h2, h3, p {
+      color: #333;
+
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 50%; /* Oval shape for the photos */
+      margin-bottom: 10px; /* Spacing between photos */
+	display: block;
+    margin: 0 auto; /* Center the images */
+	  
+    }
+
+	
+    .about-text {
+      margin-bottom: 20px;
+    }
+    .contact-info {
+      margin-top: 20px;
+    }
+    .center-heading {
+      text-align: center;
+    }
+    .about-section {
+      background-color: #f0f0f0; /* Grey background color */
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+    }
+    .cartoon-image {
+      max-width: 200px; /* Adjust the size as needed */
+      margin-right: 20px;
+    }
+    @media (max-width: 768px) {
+	}
+      .cartoon-image {
+        max-width: 150px; /* Adjust the size for smaller screens */
+    }
+	
+.contact-section {
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* Text color white */
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+
+	
+  
